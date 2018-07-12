@@ -29,8 +29,7 @@
 # }
 # puts "What state do you want to know the capital of?"	 		
 
-def given 
-puts capitals[states[given]]
+def given
 if states == "Massachusetts"
   puts "Boston"
 elsif states == "Wisconsin"
