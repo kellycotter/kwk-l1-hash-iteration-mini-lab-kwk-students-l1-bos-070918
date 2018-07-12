@@ -31,15 +31,15 @@
 
 def given 
 puts capitals[states[given]]
-if states = "Massachusetts"
+if states == "Massachusetts"
   puts "Boston"
-elsif states = "Wisconsin"
+elsif states == "Wisconsin"
   puts "Madison"
-  elsif states = "New Jersey"
+  elsif states == "New Jersey"
   puts "Trenton"
-  elsif = "Colorado"
+  elsif == "Colorado"
    puts "Denver"
-elsif states = "New York"
+elsif states == "New York"
    puts "ALbany"
  else
    "Unknown"
