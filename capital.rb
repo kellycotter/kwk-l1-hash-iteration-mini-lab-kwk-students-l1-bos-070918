@@ -26,4 +26,4 @@ capitals = {"MA" => "Boston",
 	 		
 	 		
 	 		
-capitals = ["MA"]	 		
+states = ["MA"]	 		
