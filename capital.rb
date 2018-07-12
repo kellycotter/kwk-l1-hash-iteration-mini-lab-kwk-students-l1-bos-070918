@@ -27,7 +27,7 @@
 # 	 		"CO" => "Denver",
 #       "NY" => "ALbany"
 # }
-# puts "What state do you want to know the capital of?"	 		
+puts "What state do you want to know the capital of?"	 		
 
 given = gets.chomp
 if states == "Massachusetts"
