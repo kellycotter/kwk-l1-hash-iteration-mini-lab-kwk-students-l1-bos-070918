@@ -29,7 +29,7 @@
 # }
 # puts "What state do you want to know the capital of?"	 		
 
-states = "alaska"
+given = "alaska"
 if states == "Massachusetts"
   puts "Boston"
 elsif states == "Wisconsin"
@@ -44,5 +44,4 @@ elsif states == "New York"
    "Unknown"
  end
 
- 
-given
+ given
