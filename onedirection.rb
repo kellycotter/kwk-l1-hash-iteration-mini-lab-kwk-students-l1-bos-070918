@@ -10,8 +10,13 @@ one_direction = {"Zayn" => 25,
 # Liam is 24 years old.
 # etc...
 
+
+name = {"Zayn", "Liam", "Louis", "Harry", "Niall"
+age = {25, 24, 26, 24, 24}
+
 one_direction = gets.chomp
 one_direction.each do |onedirection|
-  puts "#{onedirection}"
-  puts "#{onedirection} years old!"
+  puts "#{name} is #{age} years old!"
 end
+
+one_direction
