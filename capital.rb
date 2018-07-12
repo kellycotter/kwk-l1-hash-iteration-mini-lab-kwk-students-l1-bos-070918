@@ -17,12 +17,16 @@
 states = {"Massachusetts" => "MA",
           "Wisconsin" => "WI",
           "New Jersey" => "NJ",
-          "Colorado" => "CO"}
+          "Colorado" => "CO",
+          "New York" => "NY"
+}
 
 capitals = {"MA" => "Boston",
             "WI" => "Madison",
 			"NJ" => "Trenton",
-	 		"CO" => "Denver"}
+	 		"CO" => "Denver",
+      "NY" => "ALbany"
+}
 puts "What state do you want to know the capital of?"	 		
 given = gets.chomp
 puts capitals[states[given]]
