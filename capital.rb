@@ -29,7 +29,7 @@
 # }
 # puts "What state do you want to know the capital of?"	 		
 
-given = "alaska"
+given = gets.chomp
 if states == "Massachusetts"
   puts "Boston"
 elsif states == "Wisconsin"
