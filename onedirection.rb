@@ -22,3 +22,5 @@ sum = 0
 # end
 
 # one_direction
+
+age.submit_tag
