@@ -39,7 +39,7 @@ elsif states = "Wisconsin"
   puts "Trenton"
   elsif = "Colorado"
    puts "Denver"
-elsif = "New York"
+elsif states = "New York"
    puts "ALbany"
  else
    "Unknown"
