@@ -42,7 +42,7 @@ elsif states == "Wisconsin"
 elsif states == "New York"
    puts "ALbany"
  else
-   "Unknown"
+   puts "Unknown"
  end
 
  capital
