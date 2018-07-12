@@ -10,6 +10,8 @@ one_direction = {"Zayn" => 25,
 # Liam is 24 years old.
 # etc...
 
+sentence = gets.chomp
 one_direction.each do |onedirection|
   puts "#{onedirection}"
+  puts "#{onedirection} years old!"
 end
