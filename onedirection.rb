@@ -15,6 +15,11 @@ name = {"Zayn","Liam","Louis","Harry","Niall"
 age = {25,24,26,24,24}
 
 sum = 0
+one_direction.each do |name, age|
+  sum += age 
+end
+
+puts sum / one_direction.count
 
 # one_direction = gets.chomp
 # one_direction.each do |name, age|
