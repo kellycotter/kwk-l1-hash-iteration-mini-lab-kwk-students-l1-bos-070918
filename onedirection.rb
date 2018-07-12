@@ -11,8 +11,8 @@ one_direction = {"Zayn" => 25,
 # etc...
 
 
-name = {"Zayn", "Liam", "Louis", "Harry", "Niall"
-age = {25, 24, 26, 24, 24}
+name = {"Zayn","Liam","Louis","Harry","Niall"
+age = {25,24,26,24,24}
 
 one_direction = gets.chomp
 one_direction.each do |name, age|
