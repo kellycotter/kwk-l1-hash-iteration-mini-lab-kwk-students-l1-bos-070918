@@ -38,8 +38,10 @@ elsif states = "Wisconsin"
   elsif states = "New Jersey"
   puts "Trenton"
   elsif = "Colorado"
-puts "Denver"
-elsif
- puts 
+   puts "Denver"
+elsif = "New York"
+   puts "ALbany"
+ else
+   "Unknown"
  
 
