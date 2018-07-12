@@ -14,19 +14,20 @@
 # #     Level 2: Handle the case when a state's information is not known by returning "Unknown"
 # #     Level 3: Now let's go the other way. Given a capital name ("Denver"), return the state name for which it is the capital ("Colorado")
 
-# states = {"Massachusetts" => "MA",
-#           "Wisconsin" => "WI",
-#           "New Jersey" => "NJ",
-#           "Colorado" => "CO",
-#           "New York" => "NY"
-# }
+states = {"Massachusetts" => "MA",
+          "Wisconsin" => "WI",
+          "New Jersey" => "NJ",
+          "Colorado" => "CO",
+          "New York" => "NY"
+}
 
-# capitals = {"MA" => "Boston",
-#             "WI" => "Madison",
-# 			"NJ" => "Trenton",
-# 	 		"CO" => "Denver",
-#       "NY" => "ALbany"
-# }
+capitals = {"MA" => "Boston",
+            "WI" => "Madison",
+			"NJ" => "Trenton",
+	 		"CO" => "Denver",
+      "NY" => "ALbany"
+}
+
 puts "What state do you want to know the capital of?"	 		
 
 given = gets.chomp
