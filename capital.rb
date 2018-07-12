@@ -30,7 +30,7 @@ capitals = {"MA" => "Boston",
 
 puts "What state do you want to know the capital of?"	 		
 
-capital = gets.chomp(states = "Massachusetts")
+capital = gets.chomp(states = #{)
 if states == "Massachusetts"
   puts "Boston"
 elsif states == "Wisconsin"
