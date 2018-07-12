@@ -15,7 +15,7 @@ name = {"Zayn", "Liam", "Louis", "Harry", "Niall"
 age = {25, 24, 26, 24, 24}
 
 one_direction = gets.chomp
-one_direction.each do |onedirection|
+one_direction.each do |name, age|
   puts "#{name} is #{age} years old!"
 end
 
